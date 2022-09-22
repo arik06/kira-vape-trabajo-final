@@ -3,7 +3,9 @@
     margin: 0%;
     box-sizing: border-box;
 
+
 }
+html{scroll-behavior: smooth;}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -106,7 +108,7 @@ background-position: center bottom;
  }
  #conoce-productos .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 150px 10px;
 
  }
 
@@ -118,6 +120,7 @@ background-position: center bottom;
 
  #nuestro-catalogo .container{
     padding: 100px 10px;
+    
 
  }
 
@@ -130,12 +133,13 @@ margin-top: 0;
 
  }
 
-#nuestros-programas .carta{
+ #nuestro-catalogo .carta{
     background-position: center center;
     background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
+    padding: 50px;
+    margin: 12px;
+
+
 }
 
  .carta:first-child{
@@ -145,6 +149,7 @@ margin-top: 0;
         rgba(0,0,0,0.5)
     )
     ,url("media/otro.jpeg");
+  
  }
 
 .carta:nth-child(2){
@@ -153,7 +158,8 @@ margin-top: 0;
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/iplay.jpeg");  
+    ,url("media/iplay.jpeg"); 
+    
 }
 
  .carta:nth-child(3){
@@ -163,6 +169,7 @@ margin-top: 0;
         rgba(0,0,0,0.5)
     )
     ,url("media/lio.jpeg");
+    
  }
 
  .carta:nth-child(4){
@@ -172,8 +179,10 @@ margin-top: 0;
         rgba(0,0,0,0.5)
     )
     ,url("media/wonder.jpeg");
+    
  }
  #caracteristicas .container{
     text-align: center;
     padding: 250px 12px;
+
 }
