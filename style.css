@@ -59,7 +59,7 @@ header #logo{
     padding: 25px 30px;
 
 }
-header.container{
+header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,9 +220,9 @@ padding: 100px 12px;
 footer{
     background-color: rgb(226, 220, 200);
 }
-foote p{
+footer p{
     margin: 0;
-    padding: 20px;
+    padding: 12px;
     color: rgb(16, 15, 15);
 }
 footer .container{
@@ -231,3 +231,39 @@ footer .container{
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+       width: 100%;
+     
+    }
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+#hero{
+    display: flex;
+    align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 200vh;
+color: white;
+background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+)
+,url("media/massking.jpeg");
+background-repeat:no-repeat;
+background-size: cover;
+background-position: bottom center;
+ }
+}
+    
