@@ -52,9 +52,9 @@ header{
  
 }
 #logo{
-    width: 100px;
+    width: 175px;
 }
-header#logo{
+header #logo{
     margin: 0;
     padding: 25px 30px;
 
@@ -104,16 +104,18 @@ background-position: center bottom;
 
  #hero h1{
     color: E2DCC8;
-
+ }
+ #hero button{
+    font-size: 1.75;
  }
  #conoce-productos .container{
     text-align: center;
-    padding: 150px 10px;
+    padding: 250px 10px;
 
  }
 
  #nuestro-catalogo{
-    background-color:rgb(241, 241, 241) ;
+    background-color:rgb(15, 61, 62) ;
     color:rgb(16, 15, 15);
     text-align: center;
  }
@@ -126,6 +128,8 @@ background-position: center bottom;
 
 #nuestro-catalogo h2{
 margin-top: 0;
+font-size: 3.5em;
+color: rgb(226, 220, 200);
 }
 
  #nuestro-catalogo p{
@@ -136,8 +140,10 @@ margin-top: 0;
  #nuestro-catalogo .carta{
     background-position: center center;
     background-size: cover;
-    padding: 50px;
+    padding: 100px 0px;
     margin: 12px;
+    border-radius: 20px;
+    color: rgb(226, 220, 200);
 
 
 }
@@ -185,4 +191,43 @@ margin-top: 0;
     text-align: center;
     padding: 250px 12px;
 
+}
+
+#Beneficios .container{
+text-align: center;
+padding: 100px 12px;
+}
+#Beneficios li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color:rgb(241, 241, 241);
+    height: 50vh;
+}
+#final button{
+    font-size: 1em;
+}
+#final h2{
+    font-size: 35px;
+}
+footer{
+    background-color: rgb(226, 220, 200);
+}
+foote p{
+    margin: 0;
+    padding: 20px;
+    color: rgb(16, 15, 15);
+}
+footer .container{
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
