@@ -24,7 +24,11 @@ p {font-size: 1.25em;}
 
 ul { list-style: none;}
 li{font-size: 1.25em;}
-
+.separator{
+    height: 25px;
+    width: 2px;
+    background: white;
+}
 
 
 button{
