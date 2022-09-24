@@ -247,7 +247,7 @@ header nav{
     padding-bottom: 0;
     padding-right: 20px;
 }
-#hero{
+#hero {
     display: flex;
     align-items: center;
 justify-content: center;
@@ -265,5 +265,89 @@ background-repeat:no-repeat;
 background-size: cover;
 background-position: bottom center;
  }
+
+
+#hero h1{
+    font-size: 5em;
 }
     
+#conoce-productos .container{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#conoce-productos .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+#conoce-productos h2{
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+#conoce-productos .img-container{
+    background-image: url("media/trendy.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+#nuestro-catalogo .productos{
+    display: flex;
+    justify-content: center;
+}
+#nuestro-catalogo p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#nuestro-catalogo h3{
+    margin-top: 0;
+}
+
+#nuestro-catalogo .carta{
+    padding: 15px;
+}
+
+#Beneficios{
+background-image:  url("media/fumo.jpg");
+background-repeat: no-repeat;
+background-size: 500px 400px;
+background-position: calc(100vw - 720px) 120px;
+background-position: right center;
+
+}
+#Beneficios .container{
+text-align: initial;
+}
+#Beneficios ul{
+    margin-left: 100px;
+}
+
+#final h2{
+font-size: 3em;
+}
+
+#final button{
+font-size: 2em;
+}
+
+footer .container{
+justify-content: center;
+}
+
+@media  (min-width: 1200px){
+  #Beneficios{
+    background-position-x: calc(100vw - 950px);
+  }  
+} 
+    
+
+
+}
